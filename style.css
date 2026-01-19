@@ -63,3 +63,49 @@
     max-width: 15px;
 }
 
+
+
+/* Hero section for web browser */
+
+.hero{
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero small{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+.hero p{
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.btn-1{
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-2{
+    padding: 10px 16px;
+    font-size: 17px;
+    border-radius: 10000px;
+    background: transparent;
+    color: white;
+    margin-left: 8px;
+    cursor: pointer;
+}
