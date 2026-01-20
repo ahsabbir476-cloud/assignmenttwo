@@ -8,10 +8,6 @@
   font-optical-sizing: auto;
 }
 
-
-
-
-
 /* Navbar related style */
 
 .nav-bar{
@@ -64,8 +60,6 @@
     max-width: 15px;
 }
 
-
-
 /* Hero section for web browser */
 
 .hero{
@@ -86,6 +80,7 @@
     color: white;
     font-weight: bold;
 }
+
 .hero p{
     font-size: 17px;
     color: aliceblue;
@@ -111,9 +106,7 @@
     cursor: pointer;
 }
 
-
 /* About section style */
-
 
 .about-section{
     width: 100%;
@@ -143,11 +136,71 @@
     color: #00FF88;
 }
 
+/* box section */
 
+.box-with-reason{
+    background-color: #321f4d;
+    width: 100%;
+    min-height: 140vh;
+}
 
+.box-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: repeat(3, 268px);
+    justify-content: center;
+    padding: 120px;
+    padding-top: 20px;
+}
 
+.box-container h3{
+    font-size: 24px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
 
+.box-with-reason h1{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 5px;
+    font-size: 2.6rem; 
+    color: white;  
+}
 
+.boxes{
+    background: rgba(53, 17, 101, 0.4);
+    padding: 33px;
+    color: white;
+    border-radius: 40px;
+}
+
+#first{
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+#second{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+#third{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+#fourth{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+#fifth{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+/* Featured episode style */
 
 
 
