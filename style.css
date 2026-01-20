@@ -200,15 +200,46 @@
     grid-column: span 1;
 }
 
+
 /* Featured episode style */
 
+.featured-section{
+    background-color: #1A0B2E;
+    width: 100%;
+    min-height: 90vh;
+}
 
+.featured-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1, 260px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 120px;
+    padding-top: 80px;
 
+}
 
+.featured-box{
+    background-color: #321f4d;
+    color: white;
+    border-radius: 5px;
+}
 
+.box-featured-text{
+    padding: 15px;
+}
+.featured-section h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 100px;
+    color: white;
+}
 
-
-
+.icon{
+    margin-top: 20px;
+}
 
 
 /* Host section style */
@@ -242,7 +273,7 @@
 
 .host-content h1{
     color: white;
-    font-size: 32px;
+    font-size: 1rem;
 }
 
 .host-content p{
